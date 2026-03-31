@@ -15,7 +15,7 @@ CLIENT_SECRET = os.getenv("GITHUB_CLIENT_SECRET")
 
 GITHUB_AUTH_URL = "https://github.com/login/oauth/authorize"
 GITHUB_TOKEN_URL = "https://github.com/login/oauth/access_token"
-GITHUB_API = "https://api.github.com/"
+GITHUB_API = "https://api.github.com"
 
 @app.get("/")
 async def root():
